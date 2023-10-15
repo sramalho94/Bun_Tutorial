@@ -4,3 +4,5 @@ const server = Bun.serve({
     return new Response("Hello world!")
   }
 })
+
+console.log(`Listening on PORT http://localhost:${server.port}`)
